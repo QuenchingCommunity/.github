@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/QuenchingCommunity/.github/main/profile/assets/quenching-logo.png" width="144" height="144" alt="淬火 Quenching Logo">
+</p>
+
 <div align="center">
 
 # 淬火 · Quenching Community
