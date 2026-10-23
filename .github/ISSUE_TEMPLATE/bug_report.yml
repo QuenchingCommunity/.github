@@ -1,0 +1,42 @@
+name: "问题反馈 / Bug report"
+description: "报告可复现的客户端、资源或文档问题 / Report a reproducible problem"
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "请先搜索已有问题，并在对应项目仓库提交。日志和截图请移除个人信息。 / Search existing issues and remove private information."
+  - type: input
+    id: versions
+    attributes:
+      label: "客户端 / 资源包 / 游戏版本 · Versions"
+      description: "分别填写三个版本；不适用可写 N/A。"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "系统与配置 / Environment"
+      description: "Windows/macOS、Retail/PTR、SD/HD/DE；画面问题请补充 GPU。"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "复现步骤 / Steps to reproduce"
+      description: "从什么状态开始、进行了哪些操作？"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "预期结果 / Expected result"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "实际结果 / Actual result"
+      description: "可附截图、受影响的资源路径和脱敏日志。"
+    validations:
+      required: true
+

@@ -1,0 +1,22 @@
+name: "改进建议 / Feature request"
+description: "提出功能、文档或资源改进建议 / Suggest an improvement"
+title: "[Idea] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "要解决的问题 / Problem"
+      description: "说明实际使用场景与现在的困难。"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "建议方案 / Proposed solution"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "替代方案与参考 / Alternatives and references"
+

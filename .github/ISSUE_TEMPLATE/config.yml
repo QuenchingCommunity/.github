@@ -1,0 +1,12 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "使用交流与下载 / Community and downloads"
+    url: https://qm.txzy.net/
+    about: "公告、下载与一般使用交流"
+  - name: "安装与排障 / User guide"
+    url: https://github.com/QuenchingCommunity/Quenching-Gitbook
+    about: "安装步骤、功能说明和常见问题"
+  - name: "社区作品投稿 / Submit community work"
+    url: https://github.com/QuenchingCommunity/Quenching-UGC/issues/new/choose
+    about: "模型、皮肤、地图、战役与教程投稿"
+
